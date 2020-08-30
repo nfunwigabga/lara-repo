@@ -1,0 +1,17 @@
+<?php
+namespace __RepositoryNamespace__;
+
+use __ModelNamespace__;
+use __InterfaceNamespace__;
+use Nfunwigabga\LaraRepo\Base\BaseRepository;
+
+class __RepositoryClassName__ extends BaseRepository implements __InterfaceClassName__
+{
+    public function model()
+    {
+        return __ModelName__::class; 
+    }
+
+    
+    
+}

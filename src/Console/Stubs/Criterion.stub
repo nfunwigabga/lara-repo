@@ -1,0 +1,19 @@
+<?php 
+namespace __CriteriaNamespace__;
+
+use Nfunwigabga\LaraRepo\Base\ICriterion;
+
+class __CriterionName__ implements ICriterion
+{
+
+    public function __construct()
+    {
+        
+    }
+
+    public function apply($model)
+    {
+        
+    }
+    
+}

@@ -1,0 +1,33 @@
+{
+    "name": "nfunwigabga/lara-repo",
+    "description": "Generate repositories in a Laravel application",
+    "keywords": [
+        "laravel",
+        "repository",
+        "design pattern"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neba Funwi-gabga",
+            "email": "fgneba@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^6|^7|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nfunwigabga\\LaraRepo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nfunwigabga\\LaraRepo\\ServiceProvider"
+            ]
+        }
+    }
+}
