@@ -15,5 +15,7 @@ interface IBase
     public function update($id, array $data);
     public function updateOrCreate(array $condition, array $data);
     public function delete($id);
+    public function createForCurrentUser($relationship, array $data);
+    public function createRelated($modelInstance, $relationship, array $data);
 
 }
